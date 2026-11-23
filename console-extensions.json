@@ -1,0 +1,20 @@
+[
+  {
+    "type": "console.page/route",
+    "properties": {
+      "exact": true,
+      "path": "/rhaf-portal",
+      "component": { "$codeRef": "ExamplePage" }
+    }
+  },
+  {
+    "type": "console.navigation/href",
+    "properties": {
+      "id": "rhaf-portal",
+      "name": "%plugin__console-plugin-template~Plugin example%",
+      "href": "/rhaf-portal",
+      "perspective": "admin",
+      "section": "home"
+    }
+  }
+]
