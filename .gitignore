@@ -58,3 +58,15 @@ scripts
 ### JReleaser ###
 out/
 wanaku.local*.yaml
+
+# Yarn and dependencies
+/.yarn/install-state.gz
+/.yarn/cache/
+/.yarn/unplugged/
+/node_modules/
+
+# Test output
+/coverage/
+/test-results/
+/integration-tests/results/
+/integration-tests/.auth/
